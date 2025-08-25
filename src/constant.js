@@ -214,37 +214,38 @@ export const allServices = [
   },
 ];
 
+
 // portfolio images (web development)
 export const webPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: require('./assets/images/portfolio/web-development/5ghomes.webp'),
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: require('./assets/images/portfolio/web-development/cold-creekcap.webp'),
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: require('./assets/images/portfolio/web-development/think-reality.webp'),
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
   {
     id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    img: require('./assets/images/portfolio/web-development/akash-mega-mart.webp'),
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
   },
   {
     id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
-  },
-  {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    img: require('./assets/images/portfolio/web-development/midwam.webp'),
+    title: "Midwam",
+    link: "https://www.midwam.com/en/about",
   },
 ];
 
@@ -252,22 +253,32 @@ export const webPortfolio = [
 export const appPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: require('./assets/images/portfolio/app-development/akash_mega_mart-app.webp'),
+    title: "Akash Mega Mart Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: require('./assets/images/portfolio/app-development/feelit_app.webp'),
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Artisan Express",
+    img: require('./assets/images/portfolio/app-development/klikomics.webp'),
+    title: "Klikomics Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "House of Deliverance",
+    img: require('./assets/images/portfolio/app-development/autosnap-app.webp'),
+    title: "AutoSnap Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
+  {
+    id: 5,
+    img: require('./assets/images/portfolio/app-development/rentop.webp'),
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+  },
 ];
