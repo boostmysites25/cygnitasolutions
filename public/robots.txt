@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cygnita.in/sitemap.xml
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all other pages
+Allow: /services
+Allow: /about-us
+Allow: /blogs
+Allow: /contact-us
+Allow: /web-development
+Allow: /app-development
+Allow: /blog/
