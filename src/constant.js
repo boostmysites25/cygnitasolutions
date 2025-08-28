@@ -58,7 +58,7 @@ export {
 export const companyDetails = {
   phone: "+91-9559098634",
   whatsapp: "919559098634",
-  email: "info@cygnitasolutions.com",
+  email: "info@cygnita.com",
   address: "Aloo Thoke Sandi Road, Hardoi, UP-241001",
   companyName: "Cygnita Solutions Private Limited",
 };
@@ -197,6 +197,7 @@ export const allServices = [
     desc: "Transform your digital presence with cutting-edge web solutions that drive business growth and user engagement.",
     detailContent:
       "At Cygnita Solutions, we deliver comprehensive full-stack web development services that encompass both frontend and backend infrastructure. Our expertise lies in creating secure, scalable, and high-performance web applications that operate seamlessly across all devices and platforms. With our AI-enhanced web solutions, we ensure optimal performance, enhanced user engagement, and robust security for every project—whether it's a corporate website, e-commerce platform, or complex web application.\n\n Our development process integrates modern technologies and best practices to deliver websites that not only look stunning but also provide exceptional functionality and user experience. We focus on creating responsive designs, optimizing for search engines, and implementing features that drive conversions and business success.",
+    landingPageLink: "/web-development",
   },
   {
     id: 2,
@@ -204,6 +205,7 @@ export const allServices = [
     desc: "Create powerful mobile applications that connect with your audience and drive business success across iOS and Android platforms.",
     detailContent:
       "Cygnita Solutions specializes in developing innovative mobile applications that leverage artificial intelligence to deliver exceptional user experiences. Our development approach combines cutting-edge technology with user-centric design principles to create apps that are both functional and engaging.\n\n Whether you need an iOS app built with Swift or an Android application developed with Kotlin, our team ensures your app performs optimally, provides intuitive navigation, and delivers value to your users. We focus on creating apps that not only meet your business objectives but also adapt to evolving user needs and market trends. Our mobile solutions are designed to enhance productivity, improve user engagement, and contribute to your business growth in the increasingly mobile-first digital landscape.",
+    landingPageLink: "/app-development",
   },
   {
     id: 3,
@@ -214,36 +216,35 @@ export const allServices = [
   },
 ];
 
-
 // portfolio images (web development)
 export const webPortfolio = [
   {
     id: 1,
-    img: require('./assets/images/portfolio/web-development/5ghomes.webp'),
+    img: require("./assets/images/portfolio/web-development/5ghomes.webp"),
     title: "5g Homes",
     link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require('./assets/images/portfolio/web-development/cold-creekcap.webp'),
+    img: require("./assets/images/portfolio/web-development/cold-creekcap.webp"),
     title: "Cold Creekcap",
     link: "https://www.coldcreekcap.com",
   },
   {
     id: 3,
-    img: require('./assets/images/portfolio/web-development/think-reality.webp'),
+    img: require("./assets/images/portfolio/web-development/think-reality.webp"),
     title: "Think Reality",
     link: "https://thinkrealty.ae",
   },
   {
     id: 4,
-    img: require('./assets/images/portfolio/web-development/akash-mega-mart.webp'),
+    img: require("./assets/images/portfolio/web-development/akash-mega-mart.webp"),
     title: "Akash Mega Mart",
     link: "https://akashmegamart.com/",
   },
   {
     id: 5,
-    img: require('./assets/images/portfolio/web-development/midwam.webp'),
+    img: require("./assets/images/portfolio/web-development/midwam.webp"),
     title: "Midwam",
     link: "https://www.midwam.com/en/about",
   },
@@ -253,32 +254,32 @@ export const webPortfolio = [
 export const appPortfolio = [
   {
     id: 1,
-    img: require('./assets/images/portfolio/app-development/akash_mega_mart-app.webp'),
+    img: require("./assets/images/portfolio/app-development/akash_mega_mart-app.webp"),
     title: "Akash Mega Mart Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: require('./assets/images/portfolio/app-development/feelit_app.webp'),
+    img: require("./assets/images/portfolio/app-development/feelit_app.webp"),
     title: "FeelIt Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: require('./assets/images/portfolio/app-development/klikomics.webp'),
+    img: require("./assets/images/portfolio/app-development/klikomics.webp"),
     title: "Klikomics Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require('./assets/images/portfolio/app-development/autosnap-app.webp'),
+    img: require("./assets/images/portfolio/app-development/autosnap-app.webp"),
     title: "AutoSnap Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
     id: 5,
-    img: require('./assets/images/portfolio/app-development/rentop.webp'),
+    img: require("./assets/images/portfolio/app-development/rentop.webp"),
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
-  },
+  },
 ];

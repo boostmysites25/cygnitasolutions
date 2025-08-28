@@ -27,7 +27,8 @@ const OurServices = ({ length }) => {
           Innovative and Reliable Digital Solutions
         </h2>
         <p data-aos="fade-up" className="desc max-w-[50rem]">
-          We deliver cutting-edge solutions that drive business success and help organizations thrive in the digital age.
+          We deliver cutting-edge solutions that drive business success and help
+          organizations thrive in the digital age.
         </p>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 mt-3">
           {services.map((service) => (
@@ -44,12 +45,22 @@ const OurServices = ({ length }) => {
                   </h5>
                   <p className="desc text-white/80">{service.desc}</p>
                 </div>
-                <button
-                  onClick={() => handleSelectServiceToShowDetail(service)}
-                  className="desc mt-1 flex items-center gap-3 hover:text-primary transition-all duration-300"
-                >
-                  Learn More <PiCaretDoubleRightBold />
-                </button>
+                <div className="grid grid-cols-2 items-center gap-3 mt-1">
+                  {service.landingPageLink && (
+                    <Link
+                      to={service.landingPageLink}
+                      className="primary-btn"
+                    >
+                      View Service
+                    </Link>
+                  )}
+                  <button
+                    onClick={() => handleSelectServiceToShowDetail(service)}
+                    className="secondary-btn flex items-center gap-2"
+                  >
+                    Learn More <PiCaretDoubleRightBold />
+                  </button>
+                </div>
               </div>
             </div>
           ))}

@@ -5,6 +5,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
+import { companyDetails } from "../../constant";
 
 // Fix for default icon
 let DefaultIcon = L.icon({
@@ -20,21 +21,21 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapComponent = () => {
   // Use useMemo to memoize the location array
-  const location = useMemo(() => [28.6281, 77.2822], []);
+  const location = useMemo(() => [27.4167, 80.1167], []);
 
   const mapRef = useRef(); // Reference to the map
 
   // Center the map to the location when it loads
   useEffect(() => {
     if (mapRef.current) {
-      mapRef.current.setView(location, 13); // Set view to the location and zoom level
+      mapRef.current.setView(location, 8); // Set view to the location and zoom level
     }
   }, [location]); // Now location will not change on every render
 
   return (
     <MapContainer
       center={location}
-      zoom={14}
+      zoom={8}
       style={{ height: "70vh", width: "100%", zIndex: 0 }}
       whenCreated={(mapInstance) => (mapRef.current = mapInstance)} // Save the map instance to ref
       scrollWheelZoom={false} // Disable zooming with the scroll wheel
@@ -46,7 +47,7 @@ const MapComponent = () => {
         attribution="© OpenStreetMap contributors"
       />
       <Marker position={location}>
-        <Popup>Your location</Popup>
+        <Popup>{companyDetails.address}</Popup>
       </Marker>
     </MapContainer>
   );
